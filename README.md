@@ -129,10 +129,10 @@ sbatch pull_prepare.sh [62] [123 125 127] 3 0.0001 25
 we will copy the prepared files to `required_files` directory
 
 ```
-cp -v 1btl.parm ../required_files/
+cp -v WT_cript_S102Y.parm ../required_files/
 cp -v last_prod.pdb ../required_files/
-cp -v 1btl_rest.pdb ../required_files/
-cp -v 1btl_SMD.ref ../required_files/
+cp -v WT_cript_S102Y_rest.pdb ../required_files/
+cp -v WT_cript_S102Y_SMD.ref ../required_files/
 ```
 
 then
