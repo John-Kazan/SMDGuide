@@ -120,6 +120,10 @@ cd SMD
 cd prepare
 ```
 
+From the production MD simulation copy the parameter file `WT_cript_S102Y.parm` and the last pdb file `last_prod.pdb` in to this directory.
+
+run
+
 ```
 sbatch pull_prepare.sh [62] [123 125 127] 3 0.0001 25
 ```
